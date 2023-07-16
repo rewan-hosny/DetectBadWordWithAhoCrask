@@ -44,15 +44,14 @@ The Consumer thread retrieves the chunks from the queue and applies different fi
 
 The Write thread retrieves the filtered chunks from the queue and saves them into two separate CSV files: healthy and unhealthy. The Aho-Corasick algorithm is utilized for the filtering process.
 
+
+## Aho-Crask
+
 The following steps are involved in using the Aho-Corasick algorithm:
 
 1. Import the `pyahocorasick` library to use Aho-Corasick in Python.
 2. Construct a Trie of words from the bad word file using the `automaton.add_word` function.
 3. If there are multiple columns to check, save the results in a list and pass it to the `Return_True_False` function. This function combines the series list and returns a combination of True and False. If both conditions are true, it returns True; otherwise, it returns False.
-
-## Dependencies
-
-Specify the dependencies required to run the project. Include libraries, frameworks, or any other components necessary for the project.
 
 ## Installation
 

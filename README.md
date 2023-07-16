@@ -53,6 +53,8 @@ The following steps are involved in using the Aho-Corasick algorithm:
 2. Construct a Trie of words from the bad word file using the `automaton.add_word` function.
 3. If there are multiple columns to check, save the results in a list and pass it to the `Return_True_False` function. This function combines the series list and returns a combination of True and False. If both conditions are true, it returns True; otherwise, it returns False.
 
+   ![This is an image](aho-crask.png)
+
 ## Installation
 
 Provide instructions on how to install and set up the project. Include any additional configuration steps if needed.
